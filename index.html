@@ -1,26 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+<html>
+<head>
+	<title>Product Landing Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header id="header">
+		<img id="header-img" src="https://via.placeholder.com/150" alt="Logo">
+		<nav id="nav-bar">
+			<ul>
+				<li><a class="nav-link" href="#features">Features</a></li>
+				<li><a class="nav-link" href="#pricing">Pricing</a></li>
+				<li><a class="nav-link" href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="features">
+			<h2>Features</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu tellus lobortis, pulvinar velit ac, convallis nisl.</p>
+		</section>
+		<section id="pricing">
+			<h2>Pricing</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu tellus lobortis, pulvinar velit ac, convallis nisl.</p>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<label for="email">Enter your email address:</label>
+				<input type="email" id="email" name="email" placeholder="example@example.com" required>
+				<input type="submit" id="submit" value="Submit">
+			</form>
+		</section>
+		<video id="video" src="https://www.w3schools.com/html/movie.mp4"></video>
+	</main>
+	<script src="script.js"></script>
+</body>
 </html>
